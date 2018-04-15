@@ -7,6 +7,7 @@ void swap(int *a, int *b) {
     *b = temp;
 }
 
+//selection sort procedure to sort elements
 void selection_sort(int *arr, int n) {
     int i,j;
     for(i=0;i<n;i++) {
